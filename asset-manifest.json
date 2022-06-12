@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/comingsoon_page/static/css/main.786c8183.css",
+    "main.js": "/comingsoon_page/static/js/main.622af4fd.js",
+    "static/media/rocket.png": "/comingsoon_page/static/media/rocket.9ad12207dcbcabbdd3f6.png",
+    "index.html": "/comingsoon_page/index.html",
+    "main.786c8183.css.map": "/comingsoon_page/static/css/main.786c8183.css.map",
+    "main.622af4fd.js.map": "/comingsoon_page/static/js/main.622af4fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.786c8183.css",
+    "static/js/main.622af4fd.js"
+  ]
+}
