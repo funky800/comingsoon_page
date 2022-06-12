@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Poppings', sans-seriff;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5KSP8Z2fPdVoEWL7w-JBgR9m0YyXdizpJCw&usqp=CAU");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0 8%;
+	position: relative;
+}
+
+.logo{
+	padding: 20px 0;
+	cursor: pointer;
+	color: white;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+.body{
+	top: 50%;
+	position: absolute;
+	transition: translateY(-50%);
+	color: white;
+}
+
+.body h1{
+	font-size: 64px;
+}
+
+.body h1 span{
+	color: #ff3753;
+}
+
+.body button{
+	background: transparent;
+	border: 2px solid white;
+	outline: none;
+	padding: 12px 25px;
+	color: white; 
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.body button img{
+	width: 15px;
+	margin-left: 10px;
+}
+
+.rocket{
+	width:150px;
+	position: absolute;
+	right: 5%;
+	bottom: 0;
+	animation: rocket 4s linear infinite;
+	}
+
+   @keyframes rocket{
+   	0%{
+   		bottom: 0;
+   		opacity: 0;
+   	}
+   	100%{
+   		bottom: 105%;
+   		opacity: 1;
+   	}
+   }

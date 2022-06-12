@@ -1,0 +1,13 @@
+.timer{
+	display: flex;
+}
+
+.timer div{
+	flex-basis: 150px;
+	
+}
+
+.timer p{
+	font-size: 60px;
+	margin-bottom: 14px;
+}
